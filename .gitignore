@@ -1,0 +1,15 @@
+# API key
+.env
+
+# Local Python environment
+.venv/
+
+# MCC copyright: the notebook downloads the PDF itself
+*.pdf
+
+# Generated files (contain the MCC text and cached LLM answers)
+output/
+
+# Jupyter / Python clutter
+.ipynb_checkpoints/
+__pycache__/
